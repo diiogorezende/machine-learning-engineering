@@ -1,5 +1,50 @@
+# Arquivos do SO
+.DS_Store
+.DS_Store?
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Python
 __pycache__/
-.env/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# venv
 .venv/
+.env/
+.python-version
+
+# Data and models
 data/
 *.ipynb_checkpoints
+models/
+*.pickle
+*.pkl
+*.joblib
+*.pth
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DVC
+/dvc.lock
+
+# Others
+uv.lock
+.dvcignore
